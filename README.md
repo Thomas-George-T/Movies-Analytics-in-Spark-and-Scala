@@ -1,5 +1,10 @@
 # Description
-Using Spark to answer Analytical questions using RDD, Spark SQL and Spark Dataframes
+Using Spark to answer Analytical questions on the MovieLens data set using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell
+
+## Environment
+* Linux
+* Hadoop
+* Spark-Shell
 
 ## Analytical Queries
 1. What are the top 10 most viewed movies?
