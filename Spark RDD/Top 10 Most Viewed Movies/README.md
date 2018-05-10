@@ -1,8 +1,6 @@
-# Analytical Query
+# Analytical Query: Find the Top 10 most viewed movies
 
-## Find out the Top 10 most viewed movies
-
-To get the ouput execute the following code in your terminal
+Run the following code to get the output
 
 ```
 sh execute.sh
