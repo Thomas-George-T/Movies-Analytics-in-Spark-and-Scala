@@ -1,5 +1,5 @@
-#!bin/bash
-# Check if the file already exists
+#!usr/bin/env bash
+# Check if the directory already exists
 if [ -d "Top-10-CSV" ]
 then
 	echo "Removing previous existing directory"

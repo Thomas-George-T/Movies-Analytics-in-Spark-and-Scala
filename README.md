@@ -8,6 +8,7 @@ Using Spark to answer Analytical questions on the MovieLens data set using RDD, 
 
 ## Analytical Queries
 1. What are the top 10 most viewed movies?
+2. What are the distinct list of genres available?
 
 ## Work In Progress
 * More Queries
