@@ -9,6 +9,7 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 ## Analytical Queries
 1. What are the top 10 most viewed movies?
 2. What are the distinct list of genres available?
+3. How many movies for each genre?
 
 ## Work In Progress
 - [ ] More Queries
