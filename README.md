@@ -1,5 +1,5 @@
 # Description
-Using Spark to answer Analytical questions on the MovieLens data set using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell
+Using Spark to answer Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell
 
 ## Environment
 * Linux
@@ -11,5 +11,8 @@ Using Spark to answer Analytical questions on the MovieLens data set using RDD, 
 2. What are the distinct list of genres available?
 
 ## Work In Progress
-* More Queries
-* Need to do the Same in Spark SQL,RDD and DataFrames
+- [ ] More Queries
+- [ ] Queries to be completed in
+	- [ ] Spark RDD
+	- [ ] Spark SQL
+	- [ ] Spark DataFrames
