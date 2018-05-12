@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Check if the result directory exsists or not
-if [ -d "result" ]
+if [ -d "result-csv" ]
 then 
 	echo "Removing previous exsisting directory"
-	rm -r "result"
+	rm -r "result-csv"
 else
 	echo "Executing script"
 fi
@@ -13,5 +13,5 @@ echo ""
 echo "The number of movies in each genre"
 echo ""
 echo "Genre,Count"
-cat "result/part-00000"
+cat "result-csv/part-00000"
 echo ""
