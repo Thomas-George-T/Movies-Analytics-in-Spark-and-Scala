@@ -14,7 +14,7 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 1. What are the top 10 most viewed movies?
 2. What are the distinct list of genres available?
 3. How many movies for each genre?
-4. How many movies are starting with numbers/A/B/C..Z?
+4. How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?
 
 ## Progress of Project
 - [x] Download MovieLens dataset
