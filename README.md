@@ -11,10 +11,15 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 * Spark 2.0.2
 
 ## Analytical Queries
+
+### Spark RDD
 1. What are the top 10 most viewed movies?
 2. What are the distinct list of genres available?
 3. How many movies for each genre?
 4. How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?
+5. List the latest released movies
+
+### Spark DataFrames
 
 ## Progress of Project
 - [x] Download MovieLens dataset
@@ -22,6 +27,6 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 - [x] Write bash scripts to automate testing results
 - [ ] Do More Queries
 - [ ] Queries to be completed in
-	- [ ] Spark RDD
+	- [x] Spark RDD
 	- [ ] Spark SQL
 	- [ ] Spark DataFrames
