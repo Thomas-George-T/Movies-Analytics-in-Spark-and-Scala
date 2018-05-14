@@ -20,7 +20,10 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 5. List the latest released movies
 
 ### Spark DataFrames
+#### Using Spark SQL
 1. Find the list of the oldest released movies.
+
+Note: The results were repartitioned and stored into the same text file. It is not highly recommended to do this but it is done here for the sake of readability
 
 ## Progress of Project
 - [x] Download MovieLens dataset
