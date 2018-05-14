@@ -3,7 +3,7 @@
 </p>
 
 # Description
-Using Spark to answer Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell
+Using Spark to answer Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala Api.
 
 ## Environment
 * Linux (Ubuntu 15.04)
@@ -20,6 +20,7 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 5. List the latest released movies
 
 ### Spark DataFrames
+1. Find the list of the oldest released movies.
 
 ## Progress of Project
 - [x] Download MovieLens dataset
