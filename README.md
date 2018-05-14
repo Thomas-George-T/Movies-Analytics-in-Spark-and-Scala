@@ -22,8 +22,9 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 ### Spark DataFrames
 #### Using Spark SQL
 1. Find the list of the oldest released movies.
+2. Create datalake for the tables in movielens.
 
-Note: The results were repartitioned and stored into the same text file. It is not highly recommended to do this but it is done here for the sake of readability
+_Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
 ## Progress of Project
 - [x] Download MovieLens dataset
