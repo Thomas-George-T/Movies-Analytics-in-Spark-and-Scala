@@ -3,7 +3,7 @@
 </p>
 
 # Description
-Using Spark to answer Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala Api.
+Using Spark to answer Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
 
 ## Environment
 * Linux (Ubuntu 15.04)
@@ -23,6 +23,7 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 #### Using Spark SQL
 1. Find the list of the oldest released movies.
 2. Create datalake for the tables in movielens.
+3. How many movies are released each year?
 
 _Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
