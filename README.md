@@ -1,9 +1,11 @@
 <p align="center">
-	<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Spark Logo" height=100>
+	<a href="#">
+		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Spark Logo" height=100>
+	</a>
 </p>
 
 # Description
-Using Spark to answer Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
+Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
 
 ## Environment
 * Linux (Ubuntu 15.04)
@@ -19,8 +21,7 @@ Using Spark to answer Analytical questions on the [MovieLens dataset](https://gr
 4. How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?
 5. List the latest released movies
 
-### Spark DataFrames
-#### Using Spark SQL
+### Spark DataFrames & Spark SQL
 1. Find the list of the oldest released movies.
 2. Create datalake for the tables in movielens.
 3. How many movies are released each year?
