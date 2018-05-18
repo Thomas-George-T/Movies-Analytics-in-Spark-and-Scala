@@ -1,0 +1,8 @@
+val movies_rdd=sc.textFile("../../Movielens/movies.dat")
+val genre=movies_rdd.map(lines=>lines.split("::")(2))
+val flat_genre=genre.flatMap(lines=>lines.split("\\|"))
+val genre_kv=flat_genre.map(k=>(k,1))
+val genre_count=genre_kv.reduceByKey((k,v)=>(k+v))
+val genre_sort= genre_count.sortByKey()
+genre_sort.saveAsTextFile("result-csv")
+System.exit(0)
