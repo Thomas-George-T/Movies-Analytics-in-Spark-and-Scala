@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="#">
-		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Spark Logo" height=100>
+		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
 	</a>
 </p>
 
@@ -28,8 +28,8 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 
 _Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
-# Recognition
-This project was featured on [Data Machina Issue #130](https://www.getrevue.co/profile/datamachina/issues/data-machina-issue-130-112552) listed at number 3 under ScalaTOR. Thank you very much for the listing.
+## Recognition
+This project was featured on [Data Machina Issue #130](https://www.getrevue.co/profile/datamachina/issues/data-machina-issue-130-112552) listed at number 3 under ScalaTOR. Thank you for the listing.
 
 ## Progress of Project
 - [x] Download MovieLens dataset
