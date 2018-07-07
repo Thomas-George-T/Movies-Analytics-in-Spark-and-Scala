@@ -25,6 +25,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 1. Find the list of the oldest released movies.
 2. Create datalake for the tables in movielens.
 3. How many movies are released each year?
+4. How many number of movies are there for each rating?
 
 _Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
