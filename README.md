@@ -25,7 +25,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 
 ### Spark SQL
 1. Find the list of the oldest released movies.
-2. Create datalake for the tables in movielens.
+2. Create tables for movies.dat, users.dat and ratings.dat
 3. How many movies are released each year?
 4. How many number of movies are there for each rating?
 5. For each movie,
@@ -34,7 +34,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
    3. What is the average rating?
 
 ### Spark DataFrames
-1. List the bottom 5 averaged movies?
+1. Clean data and convert into Dataframe.
 
 _Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
