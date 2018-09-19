@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 <p align="center">
 	<a href="#">
 		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
