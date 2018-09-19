@@ -21,7 +21,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 4. How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?
 5. List the latest released movies
 
-### Spark DataFrames & Spark SQL
+### Spark SQL
 1. Find the list of the oldest released movies.
 2. Create datalake for the tables in movielens.
 3. How many movies are released each year?
@@ -30,6 +30,9 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
    1. How many users rated? 
    2. What is the total rating? 
    3. What is the average rating?
+
+### Spark DataFrames
+1. List the bottom 5 averaged movies?
 
 _Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
