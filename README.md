@@ -1,13 +1,16 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![GitHub](https://img.shields.io/github/license/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg?color=Red)
+![GitHub language count](https://img.shields.io/github/languages/count/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
 
 <p align="center">
 	<a href="#">
 		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
 	</a>
+	<br>
 </p>
 
 # Description
-Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) using Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
+Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
 
 ## Environment
 * Linux (Ubuntu 15.04)
