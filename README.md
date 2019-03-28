@@ -10,13 +10,26 @@
 </p>
 
 # Description
-Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
+Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark. This features the use of Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
 
 ## Environment
 * Linux (Ubuntu 15.04)
 * Hadoop 2.7.2
 * Spark 2.0.2
 
+## Installation steps
+
+1. Simply clone the repository
+	```
+	git clone https://github.com/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.git
+	cd MoviesLens-Analytics-in-Spark-and-Scala/
+	```
+2. Move into Spark RDD, Spark SQL or Spark Dataframe locations
+
+3. Run the execute script to view results
+	```
+	sh execute.sh
+	```
 ## Analytical Queries
 
 ### Spark RDD
@@ -42,4 +55,8 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 _Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
 ## Recognition
-This project was featured on [Data Machina Issue #130](https://www.getrevue.co/profile/datamachina/issues/data-machina-issue-130-112552) listed at number 3 under ScalaTOR. Thank you for the listing.
+This project was featured on [Data Machina Issue #130](https://www.getrevue.co/profile/datamachina/issues/data-machina-issue-130-112552) listed at number 3 under ScalaTOR. Thank you for the listing
+
+## License
+This repository is licensed under Apache License 2.0 - see [License](LICENSE.md) for more details
+
