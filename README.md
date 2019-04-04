@@ -2,12 +2,15 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg?color=Red)
 ![GitHub language count](https://img.shields.io/github/languages/count/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
 
+<head>
+	<meta name="google-site-verification" content="LX8jgV7DC2ljC41kVvHrA-atGXP4vZjYSUhsgJj6wkU" />
 <p align="center">
 	<a href="#">
 		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
 	</a>
 	<br>
 </p>
+</head>
 
 # Description
 Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark. This features the use of Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
