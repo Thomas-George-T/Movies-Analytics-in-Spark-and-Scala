@@ -1,5 +1,3 @@
-<head> <meta name="google-site-verification" content="LX8jgV7DC2ljC41kVvHrA-atGXP4vZjYSUhsgJj6wkU" /> </head>
-
 ![GitHub](https://img.shields.io/github/license/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg?color=Red)
 ![GitHub language count](https://img.shields.io/github/languages/count/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
