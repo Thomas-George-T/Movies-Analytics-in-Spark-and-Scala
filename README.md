@@ -1,10 +1,11 @@
 ![GitHub](https://img.shields.io/github/license/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg?color=Red)
 ![GitHub language count](https://img.shields.io/github/languages/count/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
-	
+![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.svg)
+
 <p align="center">
 	<a href="#">
-		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" height=100>
+		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" width=275>
 	</a>
 	<br>
 </p>
