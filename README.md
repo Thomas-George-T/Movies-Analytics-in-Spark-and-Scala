@@ -12,7 +12,7 @@
 
 
 # Description
-Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark. This features the use of Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API. We aim to draw useful insights by answering a few basic questions.
+Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark. This features the use of Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API. We aim to draw useful insights about users and movies by answering a few basic questions.
 
 ## Environment
 * Linux (Ubuntu 15.04)
@@ -25,14 +25,15 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 1. Simply clone the repository
 	```
 	git clone https://github.com/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.git
-	cd MoviesLens-Analytics-in-Spark-and-Scala/
 	```
-2. Move into Spark RDD, Spark SQL or Spark Dataframe locations
+2. In the repo, Navigate to Spark RDD, Spark SQL or Spark Dataframe locations as needed.
 
 3. Run the execute script to view results
 	```
 	sh execute.sh
 	```
+4. The `execute.sh` will pass the code through spark-shell and then display the findings in the terminal from the results folder.
+
 ## Analytical Queries
 
 ### Spark RDD
@@ -55,7 +56,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 ### Spark DataFrames
 1. Clean data and convert into Dataframe.
 
-> **_Note:** The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
+> _**Note:** The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
 ## Article Mentions
 This project was featured on [Data Machina Issue #130](https://www.getrevue.co/profile/datamachina/issues/data-machina-issue-130-112552) listed at number 3 under ScalaTOR. Thank you for the listing
