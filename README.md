@@ -12,12 +12,13 @@
 
 
 # Description
-Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark. This features the use of Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API.
+Using Spark to query Analytical questions on the [MovieLens dataset](https://grouplens.org/datasets/movielens/1m/) containing a million records using Spark. This features the use of Spark RDD, Spark SQL and Spark Dataframes executed on Spark-Shell using Scala API. We aim to draw useful insights by answering a few basic questions.
 
 ## Environment
 * Linux (Ubuntu 15.04)
 * Hadoop 2.7.2
 * Spark 2.0.2
+* Scala 2.11
 
 ## Installation steps
 
@@ -47,16 +48,16 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 3. How many movies are released each year?
 4. How many number of movies are there for each rating?
 5. For each movie,
-   1. How many users rated? 
+   1. How many users have rated? 
    2. What is the total rating? 
    3. What is the average rating?
 
 ### Spark DataFrames
 1. Clean data and convert into Dataframe.
 
-_Note: The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
+> **_Note:** The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
-## Recognition & Mentions
+## Article Mentions
 This project was featured on [Data Machina Issue #130](https://www.getrevue.co/profile/datamachina/issues/data-machina-issue-130-112552) listed at number 3 under ScalaTOR. Thank you for the listing
 
 ## License
