@@ -37,11 +37,11 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 ## Analytical Queries
 
 ### Spark RDD
-1. What are the top 10 most viewed movies?
-2. What are the distinct list of genres available?
-3. How many movies for each genre?
-4. How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?
-5. List the latest released movies
+1. [What are the top 10 most viewed movies?](/Spark_RDD/Top%2010%20Most%20Viewed%20Movies/)
+2. [What are the distinct list of genres available?](/Spark_RDD/Distinct%20Genres/)
+3. [How many movies for each genre?](Spark_RDD/Movies%20in%20each%20genre/)
+4. [How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?](Spark_RDD/Movies%20starting%20with%20Letters%20or%20Numbers/)
+5. [List the latest released movies](Spark_RDD/Latest%20movies/)
 
 ### Spark SQL
 1. Find the list of the oldest released movies.
