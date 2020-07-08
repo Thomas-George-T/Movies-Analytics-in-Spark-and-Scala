@@ -48,9 +48,8 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 2. [Create tables for movies.dat, users.dat and ratings.dat](/Spark_SQL/sparkdatalake/)
 3. [How many movies are released each year?](/Spark_SQL/movies_each_year/)
 4. [How many number of movies are there for each rating?](/Spark_SQL/movies_per_rating/)
-5. [For each movie,](/Spark_SQL/5th_query/)
-   [1. How many users have rated?](/Spark_SQL/5th_query/)
-   [2. What is the total rating?](/Spark_SQL/5th_query/) 
+6. [How many users have rated each movie?](Spark_SQL/num_users_per_movie)
+7. [What is the total rating?](Spark_SQL/total_rating_per_movie/) 
    [3. What is the average rating?](/Spark_SQL/5th_query/)
 
 ### Spark DataFrames

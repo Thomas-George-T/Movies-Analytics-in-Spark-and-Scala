@@ -14,7 +14,7 @@ else
 	echo "Executing script"
 	echo ""
 fi
-spark-shell -i 5th_query.scala
+spark-shell -i num_users_per_movie.scala
 echo ""
 echo ""
 cat result/part*.csv
