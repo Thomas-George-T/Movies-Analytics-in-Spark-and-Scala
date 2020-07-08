@@ -9,5 +9,5 @@ sh execute.sh
 
 ### Progress Tracker
 - [x] Movies.dat
-- [] Users.dat
-- [] Ratings.dat
+- [ ] Users.dat
+- [ ] Ratings.dat
