@@ -37,21 +37,21 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 ## Analytical Queries
 
 ### Spark RDD
-1. [What are the top 10 most viewed movies?](/Spark_RDD/Top%2010%20Most%20Viewed%20Movies/)
-2. [What are the distinct list of genres available?](/Spark_RDD/Distinct%20Genres/)
-3. [How many movies for each genre?](Spark_RDD/Movies%20in%20each%20genre/)
-4. [How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?](Spark_RDD/Movies%20starting%20with%20Letters%20or%20Numbers/)
-5. [List the latest released movies](Spark_RDD/Latest%20movies/)
+1. [What are the top 10 most viewed movies?](/Spark_RDD/Top_10_Most_Viewed_Movies/)
+2. [What are the distinct list of genres available?](/Spark_RDD/Distinct_Genres/)
+3. [How many movies for each genre?](Spark_RDD/Movies_in_each_genre/)
+4. [How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?](Spark_RDD/Movies_starting_with_Letters_or_Numbers/)
+5. [List the latest released movies](Spark_RDD/Latest_movies/)
 
 ### Spark SQL
-1. [Find the list of the oldest released movies.](/Spark_SQL/list%20of%20the%20oldest%20movies/)
+1. [Find the list of the oldest released movies.](/Spark_SQL/list_of_the_oldest_movies/)
 2. [Create tables for movies.dat, users.dat and ratings.dat](/Spark_SQL/sparkdatalake/)
 3. [How many movies are released each year?](/Spark_SQL/movies_each_year/)
 4. [How many number of movies are there for each rating?](/Spark_SQL/movies_per_rating/)
-5. [For each movie,](/Spark_SQL/5th%20query/)
-   [1. How many users have rated?](/Spark_SQL/5th%20query/)
-   [2. What is the total rating?](/Spark_SQL/5th%20query/) 
-   [3. What is the average rating?](/Spark_SQL/5th%20query/)
+5. [For each movie,](/Spark_SQL/5th_query/)
+   [1. How many users have rated?](/Spark_SQL/5th_query/)
+   [2. What is the total rating?](/Spark_SQL/5th_query/) 
+   [3. What is the average rating?](/Spark_SQL/5th_query/)
 
 ### Spark DataFrames
 1. [Clean data and convert into Dataframe.](Spark_DataFrames/)
