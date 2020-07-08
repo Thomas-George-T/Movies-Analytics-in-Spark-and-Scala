@@ -1,5 +1,6 @@
 # Analytical Query
-## Cleaning the delimited data into a usable format in dataFrame for movies.dat
+
+**Prepare Movies.data: Cleaning delimited data & Extracting the Year and Genre from movies.dat**
 
 Run the following command in terminal
 ```
