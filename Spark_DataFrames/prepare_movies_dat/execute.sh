@@ -5,4 +5,4 @@
 ##################################################
 
 echo "Opening spark shell"
-spark-shell -i Clean.scala
+spark-shell -i prepare_movies.scala

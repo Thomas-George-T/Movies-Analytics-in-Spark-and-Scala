@@ -53,7 +53,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 8. [What is the average rating for each movie?](Spark_SQL/average_rating_per_movie/)
 
 ### Spark DataFrames
-1. [Clean data and convert into Dataframe.](Spark_DataFrames/)
+1. [Clean and prepare Movies.data](Spark_DataFrames/prepare_movies_dat)
 
 > _**Note:** The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
