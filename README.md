@@ -44,17 +44,17 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 5. [List the latest released movies](Spark_RDD/Latest%20movies/)
 
 ### Spark SQL
-1. Find the list of the oldest released movies.
-2. Create tables for movies.dat, users.dat and ratings.dat
-3. How many movies are released each year?
-4. How many number of movies are there for each rating?
-5. For each movie,
-   1. How many users have rated? 
-   2. What is the total rating? 
-   3. What is the average rating?
+1. [Find the list of the oldest released movies.](/Spark_SQL/list%20of%20the%20oldest%20movies/)
+2. [Create tables for movies.dat, users.dat and ratings.dat](/Spark_SQL/sparkdatalake/)
+3. [How many movies are released each year?](/Spark_SQL/movies_each_year/)
+4. [How many number of movies are there for each rating?](/Spark_SQL/movies_per_rating/)
+5. [For each movie,](/Spark_SQL/5th%20query/)
+   [1. How many users have rated?](/Spark_SQL/5th%20query/)
+   [2. What is the total rating?](/Spark_SQL/5th%20query/) 
+   [3. What is the average rating?](/Spark_SQL/5th%20query/)
 
 ### Spark DataFrames
-1. Clean data and convert into Dataframe.
+1. [Clean data and convert into Dataframe.](Spark_DataFrames/)
 
 > _**Note:** The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
