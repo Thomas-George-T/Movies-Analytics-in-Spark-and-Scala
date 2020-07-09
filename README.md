@@ -37,24 +37,25 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 ## Analytical Queries
 
 ### Spark RDD
-1. [What are the top 10 most viewed movies?](/Spark_RDD/Top_10_Most_Viewed_Movies/)
-2. [What are the distinct list of genres available?](/Spark_RDD/Distinct_Genres/)
-3. [How many movies for each genre?](Spark_RDD/Movies_in_each_genre/)
-4. [How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?](Spark_RDD/Movies_starting_with_Letters_or_Numbers/)
-5. [List the latest released movies](Spark_RDD/Latest_movies/)
+- [What are the top 10 most viewed movies?](/Spark_RDD/Top_10_Most_Viewed_Movies/)
+- [What are the distinct list of genres available?](/Spark_RDD/Distinct_Genres/)
+- [How many movies for each genre?](Spark_RDD/Movies_in_each_genre/)
+- [How many movies are starting with numbers or letters (Example: Starting with 1/2/3../A/B/C..Z)?](Spark_RDD/Movies_starting_with_Letters_or_Numbers/)
+- [List the latest released movies](Spark_RDD/Latest_movies/)
 
 ### Spark SQL
-1. [Find the list of the oldest released movies.](/Spark_SQL/list_of_the_oldest_movies/)
-2. [Create tables for movies.dat, users.dat and ratings.dat](/Spark_SQL/sparkdatalake/)
-3. [How many movies are released each year?](/Spark_SQL/movies_each_year/)
-4. [How many number of movies are there for each rating?](/Spark_SQL/movies_per_rating/)
-6. [How many users have rated each movie?](Spark_SQL/num_users_per_movie)
-7. [What is the total rating for each movie?](Spark_SQL/total_rating_per_movie/) 
-8. [What is the average rating for each movie?](Spark_SQL/average_rating_per_movie/)
+- [Find the list of the oldest released movies.](/Spark_SQL/list_of_the_oldest_movies/)
+- [Create tables for movies.dat, users.dat and ratings.dat](/Spark_SQL/sparkdatalake/)
+- [How many movies are released each year?](/Spark_SQL/movies_each_year/)
+- [How many number of movies are there for each rating?](/Spark_SQL/movies_per_rating/)
+- [How many users have rated each movie?](Spark_SQL/num_users_per_movie)
+- [What is the total rating for each movie?](Spark_SQL/total_rating_per_movie/) 
+- [What is the average rating for each movie?](Spark_SQL/average_rating_per_movie/)
 
 ### Spark DataFrames
-1. [Prepare Movies.data: Extracting the Year and Genre from the Text](Spark_DataFrames/prepare_movies_dat)
-2. [Prepare Users.data: Loading a double delimited csv file](Spark_DataFrames/prepare_users_dat)
+- [Prepare Movies data: Extracting the Year and Genre from the Text](Spark_DataFrames/prepare_movies_dat)
+- [Prepare Users data: Loading a double delimited csv file](Spark_DataFrames/prepare_users_dat)
+- [Prepare Ratings data: Programmatically specifying a schema for the dataframe](Spark_DataFrames/prepare_ratings_dat)
 
 > _**Note:** The results were repartitioned and stored into the same text file. It is highly recommended to not do this but it is done here for the sake of readability_
 
