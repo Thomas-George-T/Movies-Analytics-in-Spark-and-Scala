@@ -32,7 +32,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 	```
 	sh execute.sh
 	```
-4. The `execute.sh` will pass the code through spark-shell and then display the findings in the terminal from the results folder.
+4. The `execute.sh` will pass the scala code through spark-shell and then display the findings in the terminal from the results folder.
 
 ## Analytical Queries
 
