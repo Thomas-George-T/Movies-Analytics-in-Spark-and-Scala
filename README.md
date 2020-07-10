@@ -44,8 +44,8 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 - [List the latest released movies](Spark_RDD/Latest_movies/)
 
 ### Spark SQL
-- [Find the list of the oldest released movies.](/Spark_SQL/list_of_the_oldest_movies/)
 - [Create tables for movies.dat, users.dat and ratings.dat](/Spark_SQL/sparkdatalake/)
+- [Find the list of the oldest released movies.](/Spark_SQL/list_of_the_oldest_movies/)
 - [How many movies are released each year?](/Spark_SQL/movies_each_year/)
 - [How many number of movies are there for each rating?](/Spark_SQL/movies_per_rating/)
 - [How many users have rated each movie?](Spark_SQL/num_users_per_movie)
