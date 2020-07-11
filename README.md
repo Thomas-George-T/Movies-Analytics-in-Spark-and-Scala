@@ -24,7 +24,7 @@ Using Spark to query Analytical questions on the [MovieLens dataset](https://gro
 
 1. Simply clone the repository
 	```
-	git clone https://github.com/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala.git
+	git clone https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala.git
 	```
 2. In the repo, Navigate to Spark RDD, Spark SQL or Spark Dataframe locations as needed.
 
