@@ -2,8 +2,9 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala?style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Thomas-George-T/MoviesLens-Analytics-in-Spark-and-Scala?style=flat-square)
+<!-- Broken
 [![HitCount](http://hits.dwyl.com/Thomas-George-Thomas/Movies-Analytics-in-Spark-and-Scala.svg)](http://hits.dwyl.com/Thomas-George-Thomas/Movies-Analytics-in-Spark-and-Scala)
-
+-->
 
 <p align="center">
 	<a href="#">
