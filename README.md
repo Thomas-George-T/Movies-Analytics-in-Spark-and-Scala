@@ -7,7 +7,7 @@
 
 <p align="center">
 	<a href="#">
-		<img src="https://spark.apache.org/images/spark-logo-trademark.png" alt="Apache Spark Logo" width=275>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Apache Spark Logo" width=275>
 	</a>
 	<br>
 </p>
