@@ -15,6 +15,7 @@ Solving analytical questions on the semi-structured [MovieLens dataset](https://
 	- [Spark RDD](https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala#Spark-RDD)
 	- [Spark SQL](https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala#Spark-SQL)
 	- [Spark DataFrames](https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala#Spark-DataFrames)
+	- [Miscellaneous](https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala#Miscellaneous)
 * [Mentions](https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala#Mentions)
 * [License](https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala#License)
 
@@ -71,6 +72,12 @@ Solving analytical questions on the semi-structured [MovieLens dataset](https://
 - [Prepare Movies data: Extracting the Year and Genre from the Text](Spark_DataFrames/prepare_movies_dat)
 - [Prepare Users data: Loading a double delimited csv file](Spark_DataFrames/prepare_users_dat)
 - [Prepare Ratings data: Programmatically specifying a schema for the dataframe](Spark_DataFrames/prepare_ratings_dat)
+
+## Miscellaneous
+- [Import Data from URL: Scala](/Miscellaneous/Import-File-From-URL)
+- [Save table without defining DDL in Hive](/Miscellaneous/Save-Table-Without-Explicit-DDL)
+- [Broadcast Variable example](/Miscellaneous/Broadcast-variable)
+- [Accumulator example](/Miscellaneous/Accumulator-Example)
 
 _**Note:** The results were collected and repartitioned into the same text file: This is not a recommended practice since performance is highly impacted but it is done here for the sake of readability._
 
