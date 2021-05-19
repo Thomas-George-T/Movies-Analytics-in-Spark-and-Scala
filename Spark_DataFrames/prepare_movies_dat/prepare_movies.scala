@@ -14,14 +14,15 @@ val m_genre=movies.map(lines=>lines.split("::")(2)).toDF("Genres")
 import org.apache.spark.sql.functions.monotonically_increasing_id
 val m_res1=m_id.withColumn("id", monotonically_increasing_id()).join(m_title.withColumn("id", monotonically_increasing_id()), Seq("id")).drop("id")
 
-val m_res2=m_res1.withColumn("id", monotonically_increasing_id()).join(year.withColumn("id",monotonically_increasing_id(),Seq("id")).drop("id")
+val m_res2=m_res1.withColumn("id", monotonically_increasing_id()).join(year.withColumn("id",monotonically_increasing_id()), Seq("id")).drop("id")
 
 val m_result=m_res2.withColumn("id", monotonically_increasing_id()).join(m_genre.withColumn("id", monotonically_increasing_id()), Seq("id")).drop("id")
+ 
 
 // This will give us the valid data with schema
-m_result.show
+m_result.show()
 // Examples
-m_result.where("MovieID=1").show
-m_result.filter("Genres == 'Action'").show
-m_result.select("Title").show
+m_result.where("MovieID=1").show()
+m_result.filter("Genres == 'Action'").show()
+m_result.select("Title").show()
 System.exit(0)

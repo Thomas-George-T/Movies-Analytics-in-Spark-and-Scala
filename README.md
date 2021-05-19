@@ -78,6 +78,7 @@ Solving analytical questions on the semi-structured [MovieLens dataset](https://
 - [Save table without defining DDL in Hive](/Miscellaneous/Save-Table-Without-Explicit-DDL)
 - [Broadcast Variable example](/Miscellaneous/Broadcast-variable)
 - [Accumulator example](/Miscellaneous/Accumulator-Example)
+- [Databricks Community Edition](https://community.cloud.databricks.com/login.html)
 
 _**Note:** The results were collected and repartitioned into the same text file: This is not a recommended practice since performance is highly impacted but it is done here for the sake of readability._
 
